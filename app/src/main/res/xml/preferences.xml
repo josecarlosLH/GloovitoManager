@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="system"
+        android:key="pref_usuario"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/editarnombreusuario" />
+
+    <EditTextPreference
+        android:defaultValue="manager"
+        android:key="pref_contrasena"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:title="@string/editarcontrasena" />
+</PreferenceScreen>

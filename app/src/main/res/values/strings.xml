@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">GloovitoManager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="locales">Locales</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="precio">Precio</string>
+    <string name="precioo">Precio:</string>
+    <string name="nombre">Nombre</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="email">Email</string>
+    <string name="cartera">Cartera</string>
+    <string name="reserva">Reserva</string>
+    <string name="cartera_">Cartera:</string>
+    <string name="reserva_">Reserva:</string>
+    <string name="id_cliente_">ID cliente:</string>
+    <string name="estado">Estado:</string>
+    <string name="fecha">Fecha:</string>
+    <string name="fecha_">Fecha</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="mensaje_">Mensaje:</string>
+    <string name="anadir_local">Añadir local</string>
+    <string name="anadir_pedido">Añadir pedido</string>
+    <string name="anadir_producto">Añadir producto</string>
+    <string name="anadir_usuario">Añadir usuario</string>
+    <string name="nombre_cliente">Nombre cliente:</string>
+    <string name="id_pedido">ID pedido:</string>
+    <string name="estado_">Estado:</string>
+    <string name="lineas_">Líneas:</string>
+    <string name="producto_">Producto:</string>
+    <string name="cantidad_">Cantidad:</string>
+    <string name="precio_">Precio:</string>
+    <string name="subtotal_">Subtotal:</string>
+    <string name="direccion_">Dirección:</string>
+    <string name="nombre_local">Nombre local</string>
+    <string name="producto">Producto</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="numero_de_linea">Número de línea</string>
+    <string name="movimientos">Movimientos</string>
+    <string-array name="opciones">
+        <item>Revision</item>
+        <item>Cancelado</item>
+        <item>Completado</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ficha_movimiento">FichaMovimientoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="camposvacios">No pueden haber campos vacíos</string>
+    <string name="seguro">¿Seguro?</string>
+    <string name="usuariopermanentemente">El usuario se borrará permanentemente</string>
+    <string name="borrar">Borrar</string>
+    <string name="usuarioeditado">Usuario editado correctamente</string>
+    <string name="usuarioborradp">Usuario borrado correctamente</string>
+    <string name="usuario_borrado">Usuario borrado correctamente</string>
+    <string name="productoeditado">Producto editado</string>
+    <string name="editarusuario">El usuario se actualizará con los nuevos valores</string>
+    <string name="editar">Editar</string>
+    <string name="editarproducto">Los datos del producto actual se actualizarán</string>
+    <string name="productopermanentemente">El producto se eliminará permanentemente</string>
+    <string name="producto_borrado">Producto eliminado</string>
+    <string name="pedido_confirmado">Pedido confirmado</string>
+    <string name="total">Total</string>
+    <string name="id_cliente">ID Cliente</string>
+    <string name="editarpedido">El pedido se editará con los valores actuales</string>
+    <string name="pedido_borrado">Pedido borrado</string>
+    <string name="pedido_cancelado">Peido cancelado</string>
+    <string name="error_stock">El stock del producto tiene que ser 0 o mayor</string>
+    <string name="editarlocal">El local se actualizará con los valores actuales</string>
+    <string name="localeditado">Local editado correctamente</string>
+    <string name="localpermanentemente">El local se borrará permanentemente</string>
+    <string name="local_borrado">Local borrado con éxito</string>
+    <string name="editarlinea">La línea se editará con los valores actuales</string>
+    <string name="lineaeditada">Línea editada correctamente</string>
+    <string name="linea_borrada">Línea borrada</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="usuario_anadido">Usuario añadido correctamento</string>
+    <string name="error_usuario">No se ha podido crear el usuario</string>
+    <string name="productoanadido">Producto añadido</string>
+    <string name="subiendo">Subiendo...</string>
+    <string name="subidaprogresp">Subida en progreso...</string>
+    <string name="falloimagen">Ha habido un problema con la imagen</string>
+    <string name="localanadido">Local añadido</string>
+    <string name="id_movimiento">ID Movimiento</string>
+    <string name="dinero">Dinero</string>
+    <string name="dinero_">Dinero:</string>
+    <string name="id_movimiento_">Movimiento:</string>
+    <string name="id_movimiento__">ID Movimiento:</string>
+    <string name="pedidocancelado">Pedido cancelado</string>
+    <string name="dinero_anadido">Dinero añadido</string>
+    <string name="movimiento_cancelado">Movimiento cancelado</string>
+    <string name="managerdegloovito">Manager de Gloovito</string>
+    <string name="imagenanadida">Imagen añadida correctamente</string>
+    <string name="usuario_borrado_"><![CDATA[<usuario borrado>]]></string>
+    <string name="movimiento_revision">Movimiento en revisión</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="id_pedid">ID pedido</string>
+    <string name="fech">Fecha</string>
+    <string name="usuario_restablecido">Usuario restablecido</string>
+    <string name="cantidaderror">La cantidad no puede ser mayor a la que tenía la línea</string>
+    <string name="editarnombreusuario">Editar nombre de usuario</string>
+    <string name="editarcontrasena">Edit contraseña</string>
+    <string name="contectarse">Contectarse</string>
+    <string name="credencialesincorrectas">Credenciales incorretas</string>
+    <string name="usuario">Usuario</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

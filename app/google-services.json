@@ -1,0 +1,109 @@
+{
+  "project_info": {
+    "project_number": "918123468744",
+    "firebase_url": "https://gloovito-97a19-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "gloovito-97a19",
+    "storage_bucket": "gloovito-97a19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918123468744:android:10c104e13153662a3412fd",
+        "android_client_info": {
+          "package_name": "com.example.gloovito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918123468744-62k54gkuvh8qu9e2k8o3pmqoasv135ll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gloovito",
+            "certificate_hash": "b4f31bae2a71ae0655282c0ffd9e77679bbf5ace"
+          }
+        },
+        {
+          "client_id": "918123468744-73dh6nb4iqf34romgi4tou5nre43b2q0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gloovito",
+            "certificate_hash": "8e18ae7f0edabff907b227436bc42a876fe7ae84"
+          }
+        },
+        {
+          "client_id": "918123468744-dgsn6ecu94p55j80d1cqp5plk5m26g5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gloovito",
+            "certificate_hash": "de794e6038271f81dc9fa57c008228e56881f99f"
+          }
+        },
+        {
+          "client_id": "918123468744-ksei9ach0hu10rqf9ln78u5jnaks5ta3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATYP9ALhhWFzKizsogpnE8Ln3GX6vRcAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918123468744-ksei9ach0hu10rqf9ln78u5jnaks5ta3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918123468744:android:e95dfab4b594d5fa3412fd",
+        "android_client_info": {
+          "package_name": "com.example.gloovitomanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918123468744-2sm1a8m7ip8gkh6k45742tb8gi0af9ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gloovitomanager",
+            "certificate_hash": "b4f31bae2a71ae0655282c0ffd9e77679bbf5ace"
+          }
+        },
+        {
+          "client_id": "918123468744-6tfdt3iil540d0q1cfrcpbieb8v99okg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gloovitomanager",
+            "certificate_hash": "8e18ae7f0edabff907b227436bc42a876fe7ae84"
+          }
+        },
+        {
+          "client_id": "918123468744-ksei9ach0hu10rqf9ln78u5jnaks5ta3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATYP9ALhhWFzKizsogpnE8Ln3GX6vRcAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918123468744-ksei9ach0hu10rqf9ln78u5jnaks5ta3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

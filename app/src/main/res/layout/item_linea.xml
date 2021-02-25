@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemLY"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/subtotalLineaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:text="1236.23"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/textview2"
+        app:layout_constraintTop_toBottomOf="@+id/nombreProductoLineaTV" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/subtotal_"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/precioLineaTV"
+        app:layout_constraintTop_toBottomOf="@+id/nombreProductoLineaTV" />
+
+    <TextView
+        android:id="@+id/nombreLocalLineaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:text="Tienda de cosméticos  y embutidos Lola S.A."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/numeroLineaTV"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/producto_"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreLocalLineaTV" />
+
+    <TextView
+        android:id="@+id/nombreProductoLineaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:text="Mayonesa Ligeresa Light 300 g."
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView100"
+        app:layout_constraintTop_toBottomOf="@+id/nombreLocalLineaTV" />
+
+    <TextView
+        android:id="@+id/textview200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/cantidad_"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/precio_"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/cantidadLineaTV"
+        app:layout_constraintTop_toBottomOf="@+id/nombreProductoLineaTV" />
+
+    <TextView
+        android:id="@+id/cantidadLineaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:text="200000"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/textview200"
+        app:layout_constraintTop_toBottomOf="@+id/nombreProductoLineaTV" />
+
+    <TextView
+        android:id="@+id/precioLineaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:text="1236.23"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/textview"
+        app:layout_constraintTop_toBottomOf="@+id/nombreProductoLineaTV" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview200" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numeroLineaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="12dp"
+        android:text="1"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/nombreClientePedidoItemTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/usuario_borrado_"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/id_pedido"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreClientePedidoItemTV" />
+
+    <TextView
+        android:id="@+id/idPedidoItemTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="iui3hjk2hj3kh4kjhjkh3jkh"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/textView100"
+        app:layout_constraintTop_toBottomOf="@+id/nombreClientePedidoItemTV" />
+
+    <TextView
+        android:id="@+id/textview200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/fecha"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/estado_"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/estadoPedidoTV"
+        app:layout_constraintTop_toBottomOf="@+id/idPedidoItemTV" />
+
+    <TextView
+        android:id="@+id/fechaPedidoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="12/02/2001"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/textview200"
+        app:layout_constraintTop_toBottomOf="@+id/idPedidoItemTV" />
+
+    <TextView
+        android:id="@+id/estadoPedidoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Completado"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idPedidoItemTV" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview200" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

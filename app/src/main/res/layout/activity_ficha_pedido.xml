@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.modificar_borrar.FichaPedidoActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productoIV"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="@string/id_pedid"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idPedidoTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="5dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="@string/id_cliente"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idClientePedidoTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="5dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:text="AAAAAAa"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="@string/fech"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fechaTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="5dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="1dp"
+            android:text="@string/lineas_"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textview200" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lineasRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="@string/total"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/estadoTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="@string/estado"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="@string/mensaje"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mensajeET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/editarPedidoBT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C6E1C122"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
